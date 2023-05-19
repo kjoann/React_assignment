@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    background: rgba(0, 0, 0, 0.477);
+    /* gap: 4px;*/
+    max-width: 350px;
+    margin: auto;
+    margin-top: 25px;
+    height: 43em;
+    border-radius: 10px;
+}
+
+.container{
+    margin-left: 10px;
+}
+
+h1{
+    width: 220px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    align-items: center;
+}
+
+form input{
+    width: 200px;
+    height: 15px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgba(0, 0, 0, 0.848);
+    font-size: 16px;
+    
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+form input:focus{
+    outline: none;
+}
+  
+label {
+    font-weight: bold;
+  }
+  
+input[type='radio'],
+input[type='checkbox'] {
+    width: 11px;
+    margin-right: 0.6em;
+    color: black;
+}
+
+.btn{
+    margin-left: 8em;
+}
+  
+button[type='submit'] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button[type='submit']:hover {
+    background-color: rgb(65, 146, 217);
+}
+
+@media screen and (min-width: 600px){
+    body {
+        color: black;
+    }
+}
+  
